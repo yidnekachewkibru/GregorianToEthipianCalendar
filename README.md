@@ -68,5 +68,3 @@ print(gregorianToEthiopic("1960-01-01", "Y-M-D"), "E.C")
 
 Feel free to contribute to this project by opening issues or submitting pull requests.
 ```
-
-You can copy and paste this content into your `README.md` file.

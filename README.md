@@ -13,14 +13,14 @@ The `gregorianToEthiopic` function takes a date in the Gregorian calendar format
 
 ## Function: gregorianToEthiopic
 
-### Parameters
+## Parameters
 - `_date` (str): The date in Gregorian format (YYYY-MM-DD).
 - `_format` (str): The desired output format using "Y" for year, "M" for month, and "D" for day.
 
-### Returns
+## Returns
 - (str): The date in the Ethiopian calendar format as specified by `_format`.
 
-### Example Usage
+## Example Usage
 ```python
 def gregorianToEthiopic(_date:str, _format:str) -> str:
     _year, _month, _day = map(int, _date.split("-"))
